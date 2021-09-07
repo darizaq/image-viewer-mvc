@@ -1,9 +1,10 @@
 import { Model } from "../../core/model";
+import { imageViewerConstants as constants } from "./image-viewer.constants";
 
 export class ImageViewerModel extends Model {
   constructor() {
     super({
-      url: "",
+      url: constants.fallbackImageUrl,
       caption: ""
     });
   }

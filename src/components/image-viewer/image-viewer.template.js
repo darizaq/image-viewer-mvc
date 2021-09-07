@@ -18,7 +18,8 @@ export const template = `
     </form>
   </section>
   <figure class="image-viewer__figure">
-    <img src="https://i.stack.imgur.com/y9DpT.jpg" alt="" class="image-viewer__figure-image" />
+    <img src="{{url}}" alt="" class="image-viewer__figure-image" />
+    <figcaption>{{caption}}</figcaption>
   </figure>
 </section>
 `;

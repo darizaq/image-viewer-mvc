@@ -1,7 +1,7 @@
 import { Controller } from "../../core/controller";
-import { template } from "./image-viewer.template";
 import { ImageViewerModel } from "./image-viewer.model";
 import { ImageViewerView } from "./image-viewer.view";
+import { template } from "./image-viewer.template";
 
 const configuration = {
   modelClass: ImageViewerModel,
